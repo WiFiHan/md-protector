@@ -10,8 +10,6 @@ conda activate md-protector
 pip install -r requirements.txt
 ```
 
-The paper results were obtained on a single B200 GPU with batch size 256. Class hubs are computed per mini-batch, so a different batch size changes the results.
-
 ## Data
 
 Put the datasets under `data/`:
@@ -46,7 +44,7 @@ bash scripts/run_ablations.sh  # Table 3
 
 Config values can be overridden from the command line, e.g. `--num_prototypes 4`.
 
-The checkpoint with the best validation AvgRec is saved to `runs/<name>_v0/model_best.pth`. After training, the decision threshold is selected on the validation set and the test results are written to the same folder.
+The checkpoint with the best validation AvgRec is saved to `runs/<name>_v0/model_best.pth`.
 
 ## Evaluation
 
