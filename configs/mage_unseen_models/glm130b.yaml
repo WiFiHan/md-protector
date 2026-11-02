@@ -1,0 +1,7 @@
+# MAGE Unseen Models, held-out generator family: GLM-130B (Table 2)
+name: mage_um_glm130b
+dataset: mage
+data_path: data/MAGE/unseen_models/unseen_model_GLM130B
+train_split: train
+valid_split: valid
+test_split: test_ood

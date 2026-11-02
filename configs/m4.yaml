@@ -1,0 +1,7 @@
+# M4 multilingual, SemEval-2024 Task 8 Subtask A (Table 1)
+name: m4
+dataset: m4
+data_path: data/M4/SubtaskA
+train_split: multilingual_train
+valid_split: multilingual_dev
+test_split: multilingual_test

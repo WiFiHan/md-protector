@@ -1,0 +1,7 @@
+# MAGE Unseen Domains, held-out domain: wp (Table 2)
+name: mage_ud_wp
+dataset: mage
+data_path: data/MAGE/unseen_domains/unseen_domain_wp
+train_split: train
+valid_split: valid
+test_split: test_ood

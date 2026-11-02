@@ -1,0 +1,7 @@
+# MAGE Unseen Domains, held-out domain: tldr (Table 2)
+name: mage_ud_tldr
+dataset: mage
+data_path: data/MAGE/unseen_domains/unseen_domain_tldr
+train_split: train
+valid_split: valid
+test_split: test_ood

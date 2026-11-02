@@ -1,0 +1,6 @@
+# RAID (Table 1). train90/valid10 are defined by the index file in splits/raid/.
+name: raid
+dataset: raid
+train_split: train90
+valid_split: valid10
+test_split: test

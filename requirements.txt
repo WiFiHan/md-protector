@@ -1,0 +1,9 @@
+torch==2.8.0
+transformers==4.56.1
+lightning==2.5.5
+datasets==4.1.1
+pandas==2.3.2
+scikit-learn==1.7.2
+numpy==1.26.4
+pyyaml==6.0.2
+tqdm==4.67.1

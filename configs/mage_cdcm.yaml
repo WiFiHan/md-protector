@@ -1,0 +1,7 @@
+# MAGE Cross-Domain Cross-Model (Table 1)
+name: mage_cdcm
+dataset: mage
+data_path: data/MAGE/cross_domains_cross_models
+train_split: train
+valid_split: valid
+test_split: test
